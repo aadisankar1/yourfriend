@@ -1,9 +1,7 @@
 from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters
 TOKEN = ""
-banned = open("banned.txt","r")
 banned_words = []
-banned_words = banned.read()
 async def start(update:Update,context):
     await update.message.reply_text("""
 hey this is your friend, 
