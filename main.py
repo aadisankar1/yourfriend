@@ -1,6 +1,6 @@
 from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters
-TOKEN = ""
+TOKEN = "7591885165:AAGzRc3T5vHNCU3VTQvPH94w2qDMsCAyJAo"
 banned_words = []
 async def start(update:Update,context):
     await update.message.reply_text("""
